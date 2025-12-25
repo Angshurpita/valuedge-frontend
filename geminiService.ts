@@ -1,6 +1,5 @@
 const API_BASE_URL = "https://valuedge-backend.onrender.com";
 
-
 export async function runDCF(input: any) {
   const response = await fetch(`${API_BASE_URL}/valuation/dcf`, {
     method: "POST",
